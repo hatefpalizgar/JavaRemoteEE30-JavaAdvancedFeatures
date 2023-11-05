@@ -4,6 +4,7 @@ package abstraction.interfaces;
 // 2. Prior to Java 8, only abstract methods were allowed in interfaces.
 // 3. But from Java8+, it is also possible to have concrete methods in interfaces BUT, you have to define them as 'default'
 // 4. You can also have concrete methods that are static
+// 5. any field/variable is public static final by default.
 
 // interface is a contract
 public interface Loveable {
