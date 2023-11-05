@@ -35,9 +35,9 @@ public class Main {
 
 
         // TODO: Write an application for a traffic light (TrafficLight) that has RED,GREEN, YELLOW with
-        // some message to tell the drivers what to do.
-        // Simulate a scenario of red light is turned on
-        // Show the driver the message
+        //  some message to tell the drivers what to do
+        //  Simulate a scenario of red light is turned on
+        //  Show the driver the message
 
     }
 
