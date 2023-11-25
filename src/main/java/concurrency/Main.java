@@ -106,6 +106,28 @@ public class Main {
         /* ========================================================================= */
         // Refer to threadpool package
 
+        /* ========================================================================= */
+        //                            Concurrent collections
+        /* ========================================================================= */
+        // Concurrent collections are data structures that are designed to support concurrent access and modification
+        // by multiple threads.
+        // In Java, the java.util.concurrent package provides several concurrent collection classes,
+        // such as ConcurrentHashMap, CopyOnWriteArrayList, and BlockingQueue
+        // Some key benefits of using concurrent collections include:
+        // - Improved performance: Concurrent collections are designed to perform well in the presence of multiple threads,
+        // and can often provide better performance than traditional collections in a concurrent setting
+        // - Simplified thread safety: Concurrent collections provide built-in thread safety, so you don't have to manually synchronize access to the collection.
+        // This can make it easier to write correct concurrent code
+        // - Support for common concurrent scenarios: Concurrent collections provide support for common concurrent scenarios,
+        // such as producer-consumer patterns and parallel processing.
+
+
+        /* ========================================================================= */
+        //                        Race conditions and Deadlocks
+        /* ========================================================================= */
+        // Deadlock: Deadlock occurs when two or more threads are blocked and waiting for each other to release a lock,
+        // resulting in a standstill.
+        // refer to deadlock package
 
 
     }
