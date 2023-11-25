@@ -129,6 +129,12 @@ public class Main {
         // resulting in a standstill.
         // refer to deadlock package
 
+        // Race condition: refer to synchronization block above
+
+        /* ========================================================================= */
+        //                              Atomic Variables
+        /* ========================================================================= */
+        // Refer to atomic package
 
     }
 
