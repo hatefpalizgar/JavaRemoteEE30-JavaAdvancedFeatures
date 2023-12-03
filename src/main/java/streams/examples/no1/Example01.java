@@ -51,6 +51,7 @@ public class Example01 {
                 .collect(Collectors.groupingBy(employee -> employee.getAge()));
 
         // TODO: what is the goal of below code?
+        // Answer: To print the name of the oldest employee
         departments
                 .stream()
                 .flatMap(department -> department.getEmployees().stream())
